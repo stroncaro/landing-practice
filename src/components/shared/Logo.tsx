@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./Logo.module.css";
 
 interface LogoProps {
-  colorStyle: 'bright' | 'dark';
+  backgroundStyle: 'white' | 'primary';
 }
 
-const Logo: React.FC<LogoProps> = ({ colorStyle }) => {
-  const colorClass: string = colorStyle === 'bright' ? styles.logoBright : styles.logoDark;
+const Logo: React.FC<LogoProps> = ({ backgroundStyle: colorStyle }) => {
+  const colorClass: string = colorStyle === 'white' ? styles.logoWhite : styles.logoPrimary;
 
   return <div className={`${styles.logo} ${colorClass}`}>T</div>
 }
