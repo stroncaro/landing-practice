@@ -1,0 +1,22 @@
+:root,
+:root::before,
+:root::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: blue;
+  --color-secondary: lightblue;
+  --color-white: white;
+  --color-black: black;
+
+  --font-size-big: 58px;
+  --font-size-normal: 46px;
+
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+}
+
+* {
+  padding: 0;
+}
