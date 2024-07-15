@@ -1,7 +1,11 @@
-:root,
-:root::before,
-:root::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+* {
+  padding: 0;
 }
 
 :root {
@@ -15,8 +19,4 @@
 
   --font-weight-bold: 700;
   --font-weight-normal: 400;
-}
-
-* {
-  padding: 0;
 }
