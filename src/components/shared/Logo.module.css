@@ -1,13 +1,24 @@
-.logo {
-  /* style circle */
-  width: 4rem;
-  height: 4rem;
-  padding: 1rem;
-  border-radius: 50%;
-  
-  /* style logo character */
+.logoContainer {
+  /* font properties */
+  /* TODO: set font sizes relative to screen? */
   font-size: var(--font-size-normal);
   font-weight: var(--font-weight-bold);
+
+  /* put logo and company name side by side */
+  display: flex;
+  align-items: baseline;
+  /* TODO: possibly set this gap globally*/
+  gap: 2rem;
+
+  /* NOTE: company name text color is to be inherited */
+}
+
+.logo {
+  /* style circle */
+  width: 1em;
+  height: 1em;
+  padding: 0.75em;
+  border-radius: 50%;
   
   /* center logo character */
   display: flex;

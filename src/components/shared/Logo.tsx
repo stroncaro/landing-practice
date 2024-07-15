@@ -6,9 +6,16 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ backgroundStyle: colorStyle }) => {
-  const colorClass: string = colorStyle === 'white' ? styles.logoWhite : styles.logoPrimary;
+  const colorClass: string = colorStyle === 'white'
+    ? styles.logoWhite
+    : styles.logoPrimary;
 
-  return <div className={`${styles.logo} ${colorClass}`}>T</div>
+  return (
+    <div className={styles.logoContainer}>
+      <div className={`${styles.logo} ${colorClass}`}>T</div>
+      Trafalgar
+    </div>
+  )
 }
 
 export default Logo;
