@@ -1,9 +1,10 @@
 import React from 'react';
+import Logo from '../shared/Logo'
 
 const Header: React.FC = () => {
   return (
     <header id='page-header'>
-      <h1>Header</h1>
+      <Logo backgroundStyle='primary'/>
     </header>
   )
 }
