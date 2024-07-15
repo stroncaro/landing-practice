@@ -1,0 +1,26 @@
+.logo {
+  /* style circle */
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border-radius: 50%;
+  
+  /* style logo character */
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-bold);
+  
+  /* center logo character */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoDark {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+.logoBright {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+}
