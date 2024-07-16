@@ -1,0 +1,34 @@
+.footer {
+  /* negative margin needed to undo body padding */
+  margin: 0 -1.2rem;
+  padding: 1.6rem 3.6rem;
+
+  /* colors */
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  /* two columns on desktop */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer > div {
+  /* two columns on desktop */
+  flex: 0 1 auto;
+  width: 15rem;
+  min-width: 10rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer > div:last-child > h1 {
+  /* needed so that the top aligns with the other column */
+  margin: 0;
+
+  /* make header default size */
+  font-size: 1rem;
+}
