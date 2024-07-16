@@ -15,15 +15,18 @@
   --color-black: black;
   --color-gray: gray;
 
+  /* TODO: set font sizes relative to screen? */
   --font-size-big: 50px;
   --font-size-normal: 46px;
+  font-size: var(--font-size-normal);
 
   --font-weight-bold: 700;
   --font-weight-normal: 400;
+  font-weight: var(--font-weight-normal);
 }
 
 body {
-  font-size: var(--font-size-normal);
+  padding: 1rem;
 }
 
 h1 {

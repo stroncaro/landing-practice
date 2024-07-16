@@ -1,14 +1,11 @@
 .logoContainer {
   /* font properties */
-  /* TODO: set font sizes relative to screen? */
-  font-size: var(--font-size-normal);
   font-weight: var(--font-weight-bold);
 
   /* put logo and company name side by side */
   display: flex;
   align-items: baseline;
-  /* TODO: possibly set this gap globally*/
-  gap: 2rem;
+  gap: 0.5rem;
 
   /* NOTE: company name text color is to be inherited */
 }
