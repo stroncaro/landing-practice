@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "./MenuIcon.module.css";
 
-const MenuIcon: React.FC = () => {
+interface MenuIconProps {
+  onClick?: () => void;
+}
+
+const MenuIcon: React.FC<MenuIconProps> = ({ onClick }) => {
   return (
-    <div className={styles.menuIconContainer}>
+    <div onClick={onClick} className={styles.menuIconContainer}>
       <div></div>
       <div></div>
       <div></div>
