@@ -2,9 +2,11 @@ import React from "react";
 import Button from "../../shared/Button";
 import ambulance from "../../../assets/svg/Ambulance.svg"
 
+import styles from "./Hero.module.css";
+
 const Hero: React.FC = () => {
   return (
-    <section id='hero'>
+    <section id='hero' className={styles.hero}>
       <div>
         <h1>Virtual Healthcare for you</h1>
         <p>

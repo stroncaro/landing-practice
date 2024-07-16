@@ -1,0 +1,34 @@
+.hero {
+  /* one column on mobile, two on desktop */
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+
+  /* separate from next section */
+  margin-bottom: 2rem;
+}
+
+.hero > div {
+  width: max(12rem, 35vw);
+}
+
+.hero > img {
+  width: max(16rem, 40vw);
+
+  /* center on mobile */
+  margin: 0 auto;
+}
+
+/* desktop */
+@media (min-width: 768px) {
+  .hero {
+    justify-content: center;
+  }
+
+  .hero > img {
+    /* when side by side with sibling, avoid using the free space
+    caused by auto margin */
+    margin: 0;
+  }
+}
