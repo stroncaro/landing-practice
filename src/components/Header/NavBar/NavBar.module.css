@@ -1,5 +1,6 @@
 .navBar {
   color: var(--color-gray);
+  width: 100%;
 }
 
 .navBar ul {
