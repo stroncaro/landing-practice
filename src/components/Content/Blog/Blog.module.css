@@ -1,4 +1,8 @@
-.blog > h1 {
+.blog {
+  /* distance from next section */
+  margin-bottom: 4rem;
+
+  /* center children h1 and button */
   text-align: center;
 }
 
@@ -12,4 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+
+  /* distance from button at the end */
+  margin-bottom: 1rem;
 }

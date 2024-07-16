@@ -1,6 +1,10 @@
 .article {
+  /* shape and size */
   border-radius: 25px;
   padding-bottom: 1rem;
+
+  /* needed because parent section has text-align center */
+  text-align: left;
 
   /* TODO: adjust width depending on screen size */
 }
@@ -11,7 +15,7 @@
 }
 
 .article > img {
-  /* undo general padding to be in contact with border */
+  /* undo sibling padding to be in contact with border */
   padding: 0;
 
   /* same upper radious as parent */
