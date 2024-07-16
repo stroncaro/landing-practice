@@ -6,9 +6,11 @@ import Application from "./Application/Application"
 import Customers from "./Customers/Customers";
 import Blog from "./Blog/Blog";
 
+import styles from "./Content.module.css";
+
 const Content: React.FC = () => {
   return (
-    <main>
+    <main className={styles.content}>
       <Hero />
       <Services />
       <Company />

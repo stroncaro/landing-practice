@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  /* hide company, application and customers section on mobile */
+  /* TODO: find a better way to select the children */
+  .content > :nth-child(3),
+  .content > :nth-child(4),
+  .content > :nth-child(5) {
+    display: none;
+  }
+}
