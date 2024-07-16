@@ -1,0 +1,21 @@
+.navBar {
+  color: var(--color-gray);
+}
+
+.navBar ul {
+  list-style: none;
+}
+
+.navBar ul > li:nth-child(1) > a {
+  color: var(--color-black)
+}
+
+.navBar a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  color: var(--color-black)
+}
