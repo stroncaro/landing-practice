@@ -9,6 +9,10 @@
   margin-bottom: 2rem;
 }
 
+.hero > div > p {
+  color: var(--color-gray);
+}
+
 .hero > div {
   width: max(12rem, 35vw);
 }
