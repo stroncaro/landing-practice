@@ -1,0 +1,15 @@
+.blog > h1 {
+  text-align: center;
+}
+
+.blog > hr {
+  border: 0.08rem solid black;
+  border-radius: 0.1rem;
+  width: 3rem;
+}
+
+.blog > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

@@ -1,0 +1,30 @@
+.article {
+  border-radius: 25px;
+  padding-bottom: 1rem;
+
+  /* TODO: adjust width depending on screen size */
+}
+
+/* needed to pad all children, then override in the img child */
+.article > * {
+  padding: 0 2rem;
+}
+
+.article > img {
+  /* undo general padding to be in contact with border */
+  padding: 0;
+
+  /* same upper radious as parent */
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+  width: 100%;
+}
+
+.article > p {
+  color: var(--color-gray);
+}
+
+.article > a {
+  color: var(--color-primary);
+}
