@@ -21,3 +21,7 @@
   --font-weight-bold: 700;
   --font-weight-normal: 400;
 }
+
+body {
+  font-size: var(--font-size-normal);
+}
