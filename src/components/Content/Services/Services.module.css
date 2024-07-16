@@ -1,0 +1,25 @@
+.services {
+  text-align: center;
+
+  /* distance from next section */
+  margin-bottom: 2rem;
+}
+
+.services > p {
+  color: var(--color-gray);
+  margin: 0 10% 2rem;
+}
+
+/* styles for the card area */
+.services > div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  /* handle wrapping for desktop */
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  /* distance from button at end of section*/
+  margin-bottom: 1rem;
+}

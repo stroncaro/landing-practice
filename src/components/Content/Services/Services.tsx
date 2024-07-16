@@ -1,6 +1,7 @@
 import React from "react";
 import Card, { CardProps } from "./Card/Card";
 import Button from "../../shared/Button";
+import styles from "./Services.module.css";
 
 const svgModules = import.meta.glob("../../../assets/svg/*.svg", { eager: true });
 
@@ -19,7 +20,7 @@ const cards: CardProps[] = [
 
 const Services: React.FC = () => {
   return (
-    <section>
+    <section id="services" className={styles.services}>
       <h1>Our services</h1>
       <p>
         We provide to you the best
@@ -30,7 +31,7 @@ const Services: React.FC = () => {
         with us which type of service is
         suitable for your health
       </p>
-      <div className="cardArea">
+      <div>
         {cards.map((card) => (
           <Card
             imgSrc={card.imgSrc}
