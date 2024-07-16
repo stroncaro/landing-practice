@@ -1,9 +1,9 @@
 .menuIconContainer {
   /* size and shape */
-  width: 1em;
-  height: 1em;
-  padding: 2%;
-  border-radius: 5%;
+  width: 1.4em;
+  height: 1.4em;
+  padding: 0.3em;
+  border-radius: 10%;
 
   /* center the lines vertically */
   display: flex;
@@ -28,7 +28,6 @@
 .menuIconContainer:hover {
   background-color: var(--color-primary);
 }
-
 .menuIconContainer:hover > div {
   background-color: var(--color-white);
 }
